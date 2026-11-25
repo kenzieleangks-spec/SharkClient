@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "sharkclient",
+  "version": "1.0",
+  "name": "Shark Client",
+  "environment": "client",
+  "entrypoints": { "client": ["com.sharkclient.SharkClient"] },
+  "mixins": ["sharkclient.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "fabric-api": "*" }
+}
